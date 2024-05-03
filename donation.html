@@ -7,22 +7,9 @@
     <h1>Donation</h1>
     <p>Please donate to support our website:</p>
     
-    <!-- Formulir donasi menggunakan PayPal -->
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <!-- Kode untuk mengidentifikasi akun PayPal Anda -->
-        <input type="hidden" name="cmd" value="_donations">
-       <input type="hidden" name="business" value="https://paypal.me/axellekeren829?country.x=ID&locale.x=en_US">
-
-        <!-- Detail donasi -->
-        <input type="hidden" name="item_name" value="Donate to Our Website">
-        <input type="hidden" name="currency_code" value="USD">
-
-        <!-- Input jumlah donasi -->
-        <label for="amount">Donation Amount (USD):</label>
-        <input type="number" id="amount" name="amount" step="0.01" min="0.01" required>
-        
-        <!-- Tombol submit -->
-        <input type="submit" value="Donate Now">
-    </form>
+    <!-- Tombol donasi menggunakan PayPal.me -->
+    <a href="https://paypal.me/axellekeren829?country.x=ID&locale.x=en_US" target="_blank">
+        <button>Donate Now</button>
+    </a>
 </body>
 </html>
