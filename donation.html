@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Donation</h1>
-    <p>Silakan donasi untuk mendukung situs web kami:</p>
+    <p>Please donate to support our website:</p>
     
     <!-- Formulir donasi menggunakan PayPal -->
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -14,15 +14,15 @@
         <input type="hidden" name="business" value="https://paypal.me/axellekeren829?country.x=ID&locale.x=en_US">
 
         <!-- Detail donasi -->
-        <input type="hidden" name="item_name" value="Donasi untuk Situs Web Kami">
+        <input type="hidden" name="item_name" value="Donate to Our Website">
         <input type="hidden" name="currency_code" value="USD">
 
         <!-- Input jumlah donasi -->
-        <label for="amount">Jumlah Donasi (USD):</label>
+        <label for="amount">Donation Amount (USD):</label>
         <input type="number" id="amount" name="amount" step="0.01" min="0.01" required>
         
         <!-- Tombol submit -->
-        <input type="submit" value="Donasi Sekarang">
+        <input type="submit" value="Donate Now">
     </form>
 </body>
 </html>
